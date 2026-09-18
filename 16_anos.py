@@ -1350,7 +1350,7 @@ if imagem_existe(FOTO_ISAQUE):
 
     st.html(f"""
     <div style="
-        width: 420px;
+        width: 300px;
         height: 500px;
         margin: 25px auto 55px auto;
         overflow: hidden;
