@@ -1173,8 +1173,8 @@ if imagem_existe(FOTO_NAMORO):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 500px;
+        width: 100%;
+        max-width: 350px;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
@@ -1223,8 +1223,8 @@ if imagem_existe(FOTO_CASAMENTO):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 500px;
+        width: 100%;
+        max-width: 350px;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
