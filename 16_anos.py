@@ -1173,8 +1173,8 @@ if imagem_existe(FOTO_NAMORO):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 500px;
+        width: 100%;
+        max-width: 350px;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
@@ -1184,9 +1184,9 @@ if imagem_existe(FOTO_NAMORO):
             src="data:image/jpeg;base64,{foto_namoro_base64}"
             style="
                 width: 100%;
-                height: 100%;
+                height: auto;
                 object-fit: cover;
-                object-position: center;
+                object-position: contain;
                 display: block;
             "
         >
