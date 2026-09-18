@@ -1173,13 +1173,13 @@ if imagem_existe(FOTO_NAMORO):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 500px;
+         width: 100%;
+        max-width: 360px;
+        aspect-ratio: 2 / 3;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
         box-shadow: 0 18px 50px rgba(90,30,50,0.15);
-        background-color: rgba(255, 248, 242, 0.5);
         
     ">
         <img
@@ -1187,7 +1187,8 @@ if imagem_existe(FOTO_NAMORO):
             style="
                 width: 100%;
                 height: 100%;
-                object-fit: contain;                
+                object-fit: cover;
+                object-position: center;
                 display: block;
             "
         >
@@ -1225,7 +1226,8 @@ if imagem_existe(FOTO_CASAMENTO):
     st.html(f"""
     <div style="
         width: 100%;
-        max-width: 350px;
+        max-width: 360px;
+        aspect-ratio: 2 / 3;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
@@ -1454,8 +1456,9 @@ if imagem_existe(FOTO_IGREJA):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 500px;
+        width: 100%;
+        max-width: 360px;
+        aspect-ratio: 2 / 3;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
@@ -1505,21 +1508,13 @@ if imagem_existe(FOTO_FAMILIA):
 
     st.html(f"""
     <div style="
-        width: 300px;
-        height: 600px;
-        margin: 30px auto 65px auto;
-        padding: 8px;
+        width: 100%;
+        max-width: 360px;
+        aspect-ratio: 2 / 3;
+        margin: 25px auto 55px auto;
         overflow: hidden;
-        border-radius: 32px;
-        background: linear-gradient(
-            135deg,
-            #f8d7e3,
-            #ffffff,
-            #f3c6d7
-        );
-        box-shadow:
-            0 25px 70px rgba(90,30,50,0.28),
-            0 0 0 1px rgba(155,49,88,0.12);
+        border-radius: 28px;
+        box-shadow: 0 18px 50px rgba(90,30,50,0.15);
     ">
         <img
             src="data:image/jpeg;base64,{foto_familia_base64}"
@@ -1529,7 +1524,6 @@ if imagem_existe(FOTO_FAMILIA):
                 object-fit: cover;
                 object-position: center;
                 display: block;
-                border-radius: 25px;
             "
         >
     </div>
