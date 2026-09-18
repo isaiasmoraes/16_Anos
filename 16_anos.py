@@ -210,6 +210,24 @@ html, body, [class*="css"] {
         #fffaf8;
 }
 
+/* ✂️ DAQUI PARA BAIXO SÃO AS REGRAS QUE LIMPARAM A SUA TELA: */
+
+/* Esconde o menu de opções (três pontinhos) e o botão "Deploy" */
+#MainMenu {visibility: hidden;}
+.stDeployButton {display:none;}
+footer {visibility: hidden;}
+
+/* Esconde a linha decorativa vermelha do topo e cabeçalhos */
+header {visibility: hidden;}
+[data-testid="stDecoration"] {display: none;}
+
+/* Remove o link do GitHub e o botão vermelho da lateral */
+.viewerBadge_link__1S137, .styles_viewerBadge__1yB5_, [data-testid="stGitHubLink"] {display: none !important;}
+iframe[title="Manage app"] {display: none !important;}
+
+</style>
+""", unsafe_allow_html=True)
+
 
 /* ============================================================
    CORAÇÕES FLUTUANTES
