@@ -1173,20 +1173,21 @@ if imagem_existe(FOTO_NAMORO):
 
     st.html(f"""
     <div style="
-        width: 100%;
-        max-width: 350px;
+        width: 300px;
+        height: 500px;
         margin: 25px auto 55px auto;
         overflow: hidden;
         border-radius: 28px;
         box-shadow: 0 18px 50px rgba(90,30,50,0.15);
+        background-color: rgba(255, 248, 242, 0.5);
+        
     ">
         <img
             src="data:image/jpeg;base64,{foto_namoro_base64}"
             style="
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
-                object-position: center;
+                object-fit: contain;                
                 display: block;
             "
         >
