@@ -1173,7 +1173,7 @@ if imagem_existe(FOTO_NAMORO):
 
     st.html(f"""
     <div style="
-        width: 700px;
+        width: 300px;
         height: 500px;
         margin: 25px auto 55px auto;
         overflow: hidden;
@@ -1223,7 +1223,7 @@ if imagem_existe(FOTO_CASAMENTO):
 
     st.html(f"""
     <div style="
-        width: 700px;
+        width: 300px;
         height: 500px;
         margin: 25px auto 55px auto;
         overflow: hidden;
@@ -1453,7 +1453,7 @@ if imagem_existe(FOTO_IGREJA):
 
     st.html(f"""
     <div style="
-        width: 700px;
+        width: 300px;
         height: 500px;
         margin: 25px auto 55px auto;
         overflow: hidden;
@@ -1504,7 +1504,7 @@ if imagem_existe(FOTO_FAMILIA):
 
     st.html(f"""
     <div style="
-        width: 800px;
+        width: 300px;
         height: 600px;
         margin: 30px auto 65px auto;
         padding: 8px;
